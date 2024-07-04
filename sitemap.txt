@@ -1,5 +1,5 @@
-http://example.com/2024/07/04/My-First-Post/
-http://example.com/2024/07/03/hello-world/
-http://example.com/
-http://example.com/tags/play/
-http://example.com/tags/new/
+https://boliulian.github.io/2024/07/04/My-First-Post/
+https://boliulian.github.io/2024/07/03/hello-world/
+https://boliulian.github.io/
+https://boliulian.github.io/tags/play/
+https://boliulian.github.io/tags/new/

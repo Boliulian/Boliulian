@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://boliulian.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://boliulian.github.io/"/>
   <updated>2024-07-03T16:47:06.389Z</updated>
-  <id>http://example.com/</id>
+  <id>https://boliulian.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>My First Post</title>
-    <link href="http://example.com/2024/07/04/My-First-Post/"/>
-    <id>http://example.com/2024/07/04/My-First-Post/</id>
+    <link href="https://boliulian.github.io/2024/07/04/My-First-Post/"/>
+    <id>https://boliulian.github.io/2024/07/04/My-First-Post/</id>
     <published>2024-07-03T16:40:45.000Z</published>
     <updated>2024-07-03T16:47:06.389Z</updated>
     
@@ -35,16 +35,16 @@
     
     
     
-    <category term="play" scheme="http://example.com/tags/play/"/>
+    <category term="play" scheme="https://boliulian.github.io/tags/play/"/>
     
-    <category term="new" scheme="http://example.com/tags/new/"/>
+    <category term="new" scheme="https://boliulian.github.io/tags/new/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2024/07/03/hello-world/"/>
-    <id>http://example.com/2024/07/03/hello-world/</id>
+    <link href="https://boliulian.github.io/2024/07/03/hello-world/"/>
+    <id>https://boliulian.github.io/2024/07/03/hello-world/</id>
     <published>2024-07-03T15:21:47.443Z</published>
     <updated>2024-07-03T15:21:47.443Z</updated>
     
