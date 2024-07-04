@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://boliulian.github.io/Boliulian/2024/07/04/My-First-Post/</loc>
+    <loc>https://boliulian.github.io/Boliulian/2024/07/04/%E8%87%AA%E6%AC%BA%E6%AC%BA%E4%BA%BA%E7%AC%AC%E4%B8%80%E5%90%8D/</loc>
     
     <lastmod>2024-07-04</lastmod>
     
@@ -11,9 +11,36 @@
   </url>
   
   <url>
-    <loc>https://boliulian.github.io/Boliulian/2024/07/03/hello-world/</loc>
+    <loc>https://boliulian.github.io/Boliulian/2024/07/04/youtube-dl%E6%89%92%E6%A1%A3%E6%96%B9%E6%B3%95/</loc>
     
-    <lastmod>2024-07-03</lastmod>
+    <lastmod>2024-07-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boliulian.github.io/Boliulian/about/index.html</loc>
+    
+    <lastmod>2024-07-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boliulian.github.io/Boliulian/categories/index.html</loc>
+    
+    <lastmod>2024-07-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boliulian.github.io/Boliulian/tags/index.html</loc>
+    
+    <lastmod>2024-07-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -27,20 +54,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://boliulian.github.io/Boliulian/tags/play/</loc>
-    <lastmod>2024-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://boliulian.github.io/Boliulian/tags/new/</loc>
-    <lastmod>2024-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
 
   

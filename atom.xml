@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Durian&#39;s digital garden</title>
+  <title>榴莲的数字花园</title>
   
-  <subtitle>爱好观察世界，试图理解世界</subtitle>
+  <subtitle>灵魂会说话</subtitle>
   <link href="https://boliulian.github.io/Boliulian/atom.xml" rel="self"/>
   
   <link href="https://boliulian.github.io/Boliulian/"/>
-  <updated>2024-07-04T04:48:18.095Z</updated>
+  <updated>2024-07-04T10:34:40.602Z</updated>
   <id>https://boliulian.github.io/Boliulian/</id>
   
   <author>
@@ -17,44 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My First Post</title>
-    <link href="https://boliulian.github.io/Boliulian/2024/07/04/My-First-Post/"/>
-    <id>https://boliulian.github.io/Boliulian/2024/07/04/My-First-Post/</id>
-    <published>2024-07-03T16:40:45.000Z</published>
-    <updated>2024-07-04T04:48:18.095Z</updated>
+    <title>自欺欺人第一名</title>
+    <link href="https://boliulian.github.io/Boliulian/2024/07/04/%E8%87%AA%E6%AC%BA%E6%AC%BA%E4%BA%BA%E7%AC%AC%E4%B8%80%E5%90%8D/"/>
+    <id>https://boliulian.github.io/Boliulian/2024/07/04/%E8%87%AA%E6%AC%BA%E6%AC%BA%E4%BA%BA%E7%AC%AC%E4%B8%80%E5%90%8D/</id>
+    <published>2024-07-04T10:33:46.000Z</published>
+    <updated>2024-07-04T10:34:40.602Z</updated>
     
-    <content type="html"><![CDATA[<p>test</p><p>test</p>]]></content>
+    <content type="html"><![CDATA[<p>比惨可耻但有用：</p><p>① 成果很好但毕业了半年才找到博后的<br><a href="http://xhslink.com/ywsCnO">点击比惨</a><br>② 6月毕业还没工作的，以及去年6月毕业还没工作的<br> <a href="http://xhslink.com/pHmmrO">点击比惨</a><br>③ 专业不对口也不是没可能转行的<br><a href="http://xhslink.com/qn4mrO">点击比惨</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;test&lt;/p&gt;
-&lt;p&gt;test&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;比惨可耻但有用：&lt;/p&gt;
+&lt;p&gt;① 成果很好但毕业了半年才找到博后的&lt;br&gt;&lt;a href=&quot;http://xhslink.com/ywsCnO&quot;&gt;点击比惨&lt;/a&gt;&lt;br&gt;② 6月毕业还没工作的，以及去年6月毕业还没工作的&lt;br&gt; &lt;a href=&quot;http://xhsli</summary>
       
     
     
     
-    
-    <category term="play" scheme="https://boliulian.github.io/Boliulian/tags/play/"/>
-    
-    <category term="new" scheme="https://boliulian.github.io/Boliulian/tags/new/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://boliulian.github.io/Boliulian/2024/07/03/hello-world/"/>
-    <id>https://boliulian.github.io/Boliulian/2024/07/03/hello-world/</id>
-    <published>2024-07-03T15:21:47.443Z</published>
-    <updated>2024-07-03T15:21:47.443Z</updated>
+    <title>youtube-dl扒档方法</title>
+    <link href="https://boliulian.github.io/Boliulian/2024/07/04/youtube-dl%E6%89%92%E6%A1%A3%E6%96%B9%E6%B3%95/"/>
+    <id>https://boliulian.github.io/Boliulian/2024/07/04/youtube-dl%E6%89%92%E6%A1%A3%E6%96%B9%E6%B3%95/</id>
+    <published>2024-07-04T10:16:04.000Z</published>
+    <updated>2024-07-04T10:22:07.853Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>好人提供的扒档教程，原链接：<a href="https://weibo.com/ttarticle/p/show?id=2309404603148240027963">https://weibo.com/ttarticle/p/show?id=2309404603148240027963</a></p><p><strong>方法是youtube-dl+ffmpeg</strong></p><p>youtube-dl从github找，用homebrew安装；ffmpeg是个可执行文件，从官网下</p><p>（我把ffmpeg放到usr&#x2F;local&#x2F;bin了</p><p>然后从原视频连接获取真实url，具体方法：</p><blockquote><p>在Tver或者Gyao点开一个视频，右键-审查元素（或直接Ctrl+Shift+I，如果发现不让审查元素，可以先点开随便一个别的网页，提前点开审查元素，然后把tver的链接粘贴即可）</p><p>Ctrl+f搜data-account，找到这个站点的数字</p><p>Ctrl+f搜data-video-id找到这个视频专属的数字</p><p>然后替换到底下这个链接里，即可<br><a href="http://players.brightcove.net/(data-account)/default_default/index.html?videoId=(data-video-id)">http://players.brightcove.net/(data-account)/default_default/index.html?videoId=(data-video-id)</a></p></blockquote><p>例：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">youtube-dl -f bestvideo+bestaudio http://players.brightcove.net/4394098882001/default_default/index.html\?videoId\=\6356122004112</span><br><span class="line"></span><br><span class="line">youtube-dl -f bestvideo+bestaudio http://players.brightcove.net/4031511847001/default_default/index.html\?videoId\=\6356257443112</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;p&gt;好人提供的扒档教程，原链接：&lt;a href=&quot;https://weibo.com/ttarticle/p/show?id=2309404603148240027963&quot;&gt;https://weibo.com/ttarticle/p/show?id=23094046031482</summary>
       
     
     
