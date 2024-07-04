@@ -6,7 +6,7 @@
   <link href="https://boliulian.github.io/Boliulian/atom.xml" rel="self"/>
   
   <link href="https://boliulian.github.io/Boliulian/"/>
-  <updated>2024-07-04T10:34:40.602Z</updated>
+  <updated>2024-07-04T14:44:41.635Z</updated>
   <id>https://boliulian.github.io/Boliulian/</id>
   
   <author>
@@ -21,16 +21,12 @@
     <link href="https://boliulian.github.io/Boliulian/2024/07/04/%E8%87%AA%E6%AC%BA%E6%AC%BA%E4%BA%BA%E7%AC%AC%E4%B8%80%E5%90%8D/"/>
     <id>https://boliulian.github.io/Boliulian/2024/07/04/%E8%87%AA%E6%AC%BA%E6%AC%BA%E4%BA%BA%E7%AC%AC%E4%B8%80%E5%90%8D/</id>
     <published>2024-07-04T10:33:46.000Z</published>
-    <updated>2024-07-04T10:34:40.602Z</updated>
+    <updated>2024-07-04T14:44:41.635Z</updated>
     
-    <content type="html"><![CDATA[<p>比惨可耻但有用：</p><p>① 成果很好但毕业了半年才找到博后的<br><a href="http://xhslink.com/ywsCnO">点击比惨</a><br>② 6月毕业还没工作的，以及去年6月毕业还没工作的<br> <a href="http://xhslink.com/pHmmrO">点击比惨</a><br>③ 专业不对口也不是没可能转行的<br><a href="http://xhslink.com/qn4mrO">点击比惨</a></p>]]></content>
+    <content type="html"><![CDATA[<p>比惨可耻但有用：</p><span id="more"></span>   <p>① 成果很好但毕业了半年才找到博后的<br><a href="http://xhslink.com/ywsCnO">点击比惨</a><br>② 6月毕业还没工作的，以及去年6月毕业还没工作的<br> <a href="http://xhslink.com/pHmmrO">点击比惨</a><br>③ 专业不对口也不是没可能转行的<br><a href="http://xhslink.com/qn4mrO">点击比惨</a></p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;比惨可耻但有用：&lt;/p&gt;
-&lt;p&gt;① 成果很好但毕业了半年才找到博后的&lt;br&gt;&lt;a href=&quot;http://xhslink.com/ywsCnO&quot;&gt;点击比惨&lt;/a&gt;&lt;br&gt;② 6月毕业还没工作的，以及去年6月毕业还没工作的&lt;br&gt; &lt;a href=&quot;http://xhsli</summary>
-      
+    <summary type="html">&lt;p&gt;比惨可耻但有用：&lt;/p&gt;</summary>
     
     
     
@@ -42,15 +38,52 @@
     <link href="https://boliulian.github.io/Boliulian/2024/07/04/youtube-dl%E6%89%92%E6%A1%A3%E6%96%B9%E6%B3%95/"/>
     <id>https://boliulian.github.io/Boliulian/2024/07/04/youtube-dl%E6%89%92%E6%A1%A3%E6%96%B9%E6%B3%95/</id>
     <published>2024-07-04T10:16:04.000Z</published>
-    <updated>2024-07-04T10:22:07.853Z</updated>
+    <updated>2024-07-04T14:44:46.580Z</updated>
     
-    <content type="html"><![CDATA[<p>好人提供的扒档教程，原链接：<a href="https://weibo.com/ttarticle/p/show?id=2309404603148240027963">https://weibo.com/ttarticle/p/show?id=2309404603148240027963</a></p><p><strong>方法是youtube-dl+ffmpeg</strong></p><p>youtube-dl从github找，用homebrew安装；ffmpeg是个可执行文件，从官网下</p><p>（我把ffmpeg放到usr&#x2F;local&#x2F;bin了</p><p>然后从原视频连接获取真实url，具体方法：</p><blockquote><p>在Tver或者Gyao点开一个视频，右键-审查元素（或直接Ctrl+Shift+I，如果发现不让审查元素，可以先点开随便一个别的网页，提前点开审查元素，然后把tver的链接粘贴即可）</p><p>Ctrl+f搜data-account，找到这个站点的数字</p><p>Ctrl+f搜data-video-id找到这个视频专属的数字</p><p>然后替换到底下这个链接里，即可<br><a href="http://players.brightcove.net/(data-account)/default_default/index.html?videoId=(data-video-id)">http://players.brightcove.net/(data-account)/default_default/index.html?videoId=(data-video-id)</a></p></blockquote><p>例：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">youtube-dl -f bestvideo+bestaudio http://players.brightcove.net/4394098882001/default_default/index.html\?videoId\=\6356122004112</span><br><span class="line"></span><br><span class="line">youtube-dl -f bestvideo+bestaudio http://players.brightcove.net/4031511847001/default_default/index.html\?videoId\=\6356257443112</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>好人提供的扒档教程，原链接：<a href="https://weibo.com/ttarticle/p/show?id=2309404603148240027963">https://weibo.com/ttarticle/p/show?id=2309404603148240027963</a></p><p><strong>方法是youtube-dl+ffmpeg</strong></p><span id="more"></span>   <p>youtube-dl从github找，用homebrew安装；ffmpeg是个可执行文件，从官网下</p><p>（我把ffmpeg放到usr&#x2F;local&#x2F;bin了</p><p>然后从原视频连接获取真实url，具体方法：</p><blockquote><p>在Tver或者Gyao点开一个视频，右键-审查元素（或直接Ctrl+Shift+I，如果发现不让审查元素，可以先点开随便一个别的网页，提前点开审查元素，然后把tver的链接粘贴即可）</p><p>Ctrl+f搜data-account，找到这个站点的数字</p><p>Ctrl+f搜data-video-id找到这个视频专属的数字</p><p>然后替换到底下这个链接里，即可<br><a href="http://players.brightcove.net/(data-account)/default_default/index.html?videoId=(data-video-id)">http://players.brightcove.net/(data-account)/default_default/index.html?videoId=(data-video-id)</a></p></blockquote><p>例：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">youtube-dl -f bestvideo+bestaudio http://players.brightcove.net/4394098882001/default_default/index.html\?videoId\=\6356122004112</span><br><span class="line"></span><br><span class="line">youtube-dl -f bestvideo+bestaudio http://players.brightcove.net/4031511847001/default_default/index.html\?videoId\=\6356257443112</span><br></pre></td></tr></table></figure>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;好人提供的扒档教程，原链接：&lt;a href=&quot;https://weibo.com/ttarticle/p/show?id=2309404603148240027963&quot;&gt;https://weibo.com/ttarticle/p/show?id=23094046031482</summary>
-      
+    <summary type="html">&lt;p&gt;好人提供的扒档教程，原链接：&lt;a href=&quot;https://weibo.com/ttarticle/p/show?id=2309404603148240027963&quot;&gt;https://weibo.com/ttarticle/p/show?id=2309404603148240027963&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;方法是youtube-dl+ffmpeg&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+github部署个人博客的流程</title>
+    <link href="https://boliulian.github.io/Boliulian/2024/07/04/Hexo+github%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/"/>
+    <id>https://boliulian.github.io/Boliulian/2024/07/04/Hexo+github%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/</id>
+    <published>2024-07-04T10:16:04.000Z</published>
+    <updated>2024-07-04T14:43:13.414Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-下载node-js和npm"><a href="#1-下载node-js和npm" class="headerlink" title="1.下载node.js和npm"></a>1.下载node.js和npm</h2><p>node.js包括了npm</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install node</span><br></pre></td></tr></table></figure><span id="more"></span>   <h2 id="2-下载hexo"><a href="#2-下载hexo" class="headerlink" title="2.下载hexo"></a>2.下载hexo</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h2 id="3-初始化blog"><a href="#3-初始化blog" class="headerlink" title="3.初始化blog"></a>3.初始化blog</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init myblog</span><br><span class="line">cd myblog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><h2 id="4-安装主题"><a href="#4-安装主题" class="headerlink" title="4.安装主题"></a>4.安装主题</h2><h3 id="4-1-下载next"><a href="#4-1-下载next" class="headerlink" title="4.1 下载next"></a>4.1 下载next</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/hexojs/hexo-theme-landscape themes/next</span><br></pre></td></tr></table></figure><h3 id="4-2-配置-config-yml"><a href="#4-2-配置-config-yml" class="headerlink" title="4.2 配置_config.yml"></a>4.2 配置_config.yml</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">landscape</span></span><br></pre></td></tr></table></figure><h2 id="5-外部部署"><a href="#5-外部部署" class="headerlink" title="5.外部部署"></a>5.外部部署</h2><h3 id="5-1-github准备"><a href="#5-1-github准备" class="headerlink" title="5.1 github准备"></a>5.1 github准备</h3><p>github新建仓库<my_repository>，并将主分支设置为main</p><h3 id="5-2-本地准备"><a href="#5-2-本地准备" class="headerlink" title="5.2 本地准备"></a>5.2 本地准备</h3><p>安装插件hexo-deployer-git</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>生成ssh key</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot; &quot;</span><br><span class="line">git config --global user.email &quot; &quot;</span><br><span class="line">ssh-keygen -t rsa -C &quot; &quot;</span><br></pre></td></tr></table></figure><p>将<code>id_rsa.pub</code>文件中的内容复制到仓库设置中，生成ssh key</p><h3 id="5-3-两者连接"><a href="#5-3-两者连接" class="headerlink" title="5.3 两者连接"></a>5.3 两者连接</h3><p>修改<code>\_config.yml</code>文件中的deploy和url</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">url:</span> <span class="string">github</span> <span class="string">page地址</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">仓库的ssh地址（http地址连不上</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure><h2 id="6-提交内容"><a href="#6-提交内容" class="headerlink" title="6.提交内容"></a>6.提交内容</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-下载node-js和npm&quot;&gt;&lt;a href=&quot;#1-下载node-js和npm&quot; class=&quot;headerlink&quot; title=&quot;1.下载node.js和npm&quot;&gt;&lt;/a&gt;1.下载node.js和npm&lt;/h2&gt;&lt;p&gt;node.js包括了npm&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;brew install node&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+    <category term="hexo" scheme="https://boliulian.github.io/Boliulian/tags/hexo/"/>
+    
+    <category term="github" scheme="https://boliulian.github.io/Boliulian/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>精神就存放在这里</title>
+    <link href="https://boliulian.github.io/Boliulian/2024/07/03/%E7%B2%BE%E7%A5%9E%E5%B0%B1%E5%AD%98%E6%94%BE%E5%9C%A8%E8%BF%99%E9%87%8C/"/>
+    <id>https://boliulian.github.io/Boliulian/2024/07/03/%E7%B2%BE%E7%A5%9E%E5%B0%B1%E5%AD%98%E6%94%BE%E5%9C%A8%E8%BF%99%E9%87%8C/</id>
+    <published>2024-07-03T11:13:30.000Z</published>
+    <updated>2024-07-04T14:44:38.304Z</updated>
+    
+    <content type="html"><![CDATA[<p>只要结果，不问过程。原来不仅是读博，我的人生也一直是这样被隐形要求的，只不过时间尺度拉得太长，到今天交不出成果了才意识到。</p><span id="more"></span>   <p>别谈什么哲学就是求真了，这个现实世界没有真的东西，真只存在于精神里，是不可说的东西。哲学是自己和世界的关系，也不是可以说的东西。从今天起，闭口不谈。</p><p>28岁了才明白并没有无条件的爱。</p><p>回顾人生犯的错误，大概最主要一条就是在不正确的年龄拥有了不属于自己阶层的价值观。</p><p>你没有时间和资格悲伤，现在需要做的是纠正以前的错误，晚了也不晚。不能说晚，承认晚了就彻底玩完了。</p><p>其实是隐隐预料到会有这么一天的，但总抱有一丝侥幸，觉得我是不是可以晚一点，再晚一点，或者不去被同化。拖到现在已经是极限了。这一年来也出现了很多征兆，比如ldh出现的问题，入坑了お笑い，和高中同学的问题，和课题组的问题，和奶奶和姑姑的问题，还有室友说的你会离开这里的。</p><p>长出精神是原罪。我突然同情起了复旦那位天龙人，并没有可比性，只是说现实的人不能有精神。精神在心中，不在语言，不在行为。精神不死，灵魂不死，肉身也可以不死。</p><p>作为不死的证明，今后精神就存放在这里。这个地方大概就是为了这一天准备的。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;只要结果，不问过程。原来不仅是读博，我的人生也一直是这样被隐形要求的，只不过时间尺度拉得太长，到今天交不出成果了才意识到。&lt;/p&gt;</summary>
     
     
     
