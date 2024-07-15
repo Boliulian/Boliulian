@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boliulian.github.io/Boliulian/gallery/index.html</loc>
+    
+    <lastmod>2024-07-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boliulian.github.io/Boliulian/2024/07/04/Hexo+github%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/</loc>
     
     <lastmod>2024-07-14</lastmod>
@@ -103,7 +112,7 @@
 
   <url>
     <loc>https://boliulian.github.io/Boliulian</loc>
-    <lastmod>2024-07-14</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -111,35 +120,35 @@
   
   <url>
     <loc>https://boliulian.github.io/Boliulian/tags/hexo/</loc>
-    <lastmod>2024-07-14</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boliulian.github.io/Boliulian/tags/github/</loc>
-    <lastmod>2024-07-14</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boliulian.github.io/Boliulian/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2024-07-14</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boliulian.github.io/Boliulian/tags/cpp/</loc>
-    <lastmod>2024-07-14</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boliulian.github.io/Boliulian/tags/%E7%81%B5%E9%AD%82%E4%BC%9A%E8%AF%B4%E8%AF%9D/</loc>
-    <lastmod>2024-07-14</lastmod>
+    <lastmod>2024-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
