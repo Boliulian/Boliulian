@@ -81,38 +81,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo配置记录</title>
-    <url>/Boliulian/2024/07/12/Hexo%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<h2 id="渲染latex公式"><a href="#渲染latex公式" class="headerlink" title="渲染latex公式"></a>渲染latex公式</h2><p>next的config文件里，有<code>mathjax</code>属性，改成true，然后在需要latex渲染的页面前加上<code>mathjax:true</code></p>
-<span id="more"></span>  
-<h2 id="页面文章部分显示"><a href="#页面文章部分显示" class="headerlink" title="页面文章部分显示"></a>页面文章部分显示</h2><p>在需要开始隐藏的段落前加上：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;   </span><br></pre></td></tr></table></figure>
-
-<h2 id="解决静态页面和部署显示不一致的问题"><a href="#解决静态页面和部署显示不一致的问题" class="headerlink" title="解决静态页面和部署显示不一致的问题"></a>解决静态页面和部署显示不一致的问题</h2><p>先<code>hexo clean</code> 清除缓存，再发布</p>
-<h2 id="部分文章加密"><a href="#部分文章加密" class="headerlink" title="部分文章加密"></a>部分文章加密</h2><p>安装插件：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hero-blog-encrypt</span><br></pre></td></tr></table></figure>
-
-<p>配置文件添加字段：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">encrypt:</span></span><br><span class="line">	<span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p>需要加密的文档属性添加：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">password:xxx</span><br></pre></td></tr></table></figure>
-
-<h2 id="文章搜索"><a href="#文章搜索" class="headerlink" title="文章搜索"></a>文章搜索</h2><p>需要安装插件</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-
-<p>然后更改local_search为true</p>
-<h2 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-wordcount --save</span><br></pre></td></tr></table></figure>
-
-<h2 id="访客统计"><a href="#访客统计" class="headerlink" title="访客统计"></a>访客统计</h2><p>更改busuanzi_count为true</p>
-<p>可以参考知乎上的一个next配置过程<br><a href="https://zhuanlan.zhihu.com/p/129644138">https://zhuanlan.zhihu.com/p/129644138</a></p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>入坑记录 お笑い</title>
     <url>/Boliulian/2024/08/15/%E5%85%A5%E5%9D%91%E8%AE%B0%E5%BD%95%20%E3%81%8A%E7%AC%91%E3%81%84/</url>
     <content><![CDATA[<p><font color=MediumVioletRed><strong>欢迎来到一个拥有巧克力和笑い的和平星球</strong></font></p>
@@ -205,8 +173,8 @@
 <p>飞机上对决更是莫名其妙的，拿武士刀打架得有M7那种烈火和死别的氛围才叫剑道啊！</p>
 <p>看到中森受伤那会儿以为有什么大事要发生，结果作用只是传句话来跟园子连上（感觉是不想编情节了直接暴力连接），然后顺便让青子出来露个脸，还贡献了一个预告欺诈镜头。</p>
 <p>回过头来竟想不起小柯有什么亮眼表现，总不能是滑板走钢丝吧？</p>
-<p>本来还想补个原版，去年起码还有小糖，今年想想还是算了。</p>
-<p>![[..&#x2F;Z-Attachments&#x2F;Snipaste_2024-07-08_12-47-39.jpg|450]]</p>
+<p>本来还想补个原版，去年起码还有小糖，今年想想还是算了。\</p>
+<p><img src="https://github.com/Boliulian/blog_attachments/blob/main/Snipaste_2024-07-08_12-47-39.jpg?raw=true" alt="|425"></p>
 ]]></content>
       <tags>
         <tag>日常</tag>
@@ -308,6 +276,43 @@
 <script data-pjax src="/Boliulian/lib/hbe.js"></script><link href="/Boliulian/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo Next 配置记录</title>
+    <url>/Boliulian/2024/07/12/Hexo%20Next%20%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p><font color=Green><strong>如果你也有兴趣配置一个这样的博客：</strong></font></p>
+<a href="/Boliulian/2024/07/04/Hexo+github%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/" title="Hexo+github部署个人博客的流程">Hexo+github部署个人博客的流程</a>
+
+<span id="more"></span>  
+
+<h2 id="Markdown-gallery"><a href="#Markdown-gallery" class="headerlink" title="Markdown gallery"></a>Markdown gallery</h2><p>一个解决方案：<br><a href="https://felixhayashi.github.io/ReadmeGalleryCreatorForGitHub/">https://felixhayashi.github.io/ReadmeGalleryCreatorForGitHub/</a></p>
+<h2 id="渲染latex公式"><a href="#渲染latex公式" class="headerlink" title="渲染latex公式"></a>渲染latex公式</h2><p>next的config文件里，有<code>mathjax</code>属性，改成true，然后在需要latex渲染的页面前加上<code>mathjax:true</code></p>
+<h2 id="页面文章部分显示"><a href="#页面文章部分显示" class="headerlink" title="页面文章部分显示"></a>页面文章部分显示</h2><p>在需要开始隐藏的段落前加上：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;   </span><br></pre></td></tr></table></figure>
+
+<h2 id="解决静态页面和部署显示不一致的问题"><a href="#解决静态页面和部署显示不一致的问题" class="headerlink" title="解决静态页面和部署显示不一致的问题"></a>解决静态页面和部署显示不一致的问题</h2><p>先<code>hexo clean</code> 清除缓存，再发布</p>
+<h2 id="部分文章加密"><a href="#部分文章加密" class="headerlink" title="部分文章加密"></a>部分文章加密</h2><p>安装插件：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hero-blog-encrypt</span><br></pre></td></tr></table></figure>
+
+<p>配置文件添加字段：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">encrypt:</span></span><br><span class="line">	<span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>需要加密的文档属性添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">password:xxx</span><br></pre></td></tr></table></figure>
+
+<h2 id="文章搜索"><a href="#文章搜索" class="headerlink" title="文章搜索"></a>文章搜索</h2><p>需要安装插件</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<p>然后更改local_search为true</p>
+<h2 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-wordcount --save</span><br></pre></td></tr></table></figure>
+
+<h2 id="访客统计"><a href="#访客统计" class="headerlink" title="访客统计"></a>访客统计</h2><p>更改busuanzi_count为true</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>可以参考知乎上的一个next配置过程<br><a href="https://zhuanlan.zhihu.com/p/129644138">https://zhuanlan.zhihu.com/p/129644138</a></p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>github</tag>
       </tags>
   </entry>
 </search>
