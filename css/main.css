@@ -90,7 +90,7 @@ optgroup,
 select,
 textarea {
   font-family: inherit; /* 1 */
-  font-size: 70%; /* 1 */
+  font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
@@ -1261,7 +1261,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #c3ff9c;
+    background: #ffc716;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
